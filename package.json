@@ -1,0 +1,34 @@
+{
+  "name": "uni-wasm",
+  "version": "1.0.2",
+  "description": "Generate wasm which works in SES",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./index.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koonopek/uni-wasm.git"
+  },
+  "keywords": [
+    "WASM",
+    "SES"
+  ],
+  "author": "Michal Konopka",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/koonopek/uni-wasm/issues"
+  },
+  "homepage": "https://github.com/koonopek/uni-wasm#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "toml": "^3.0.0",
+    "wasm-pack": "^0.10.3"
+  }
+}
